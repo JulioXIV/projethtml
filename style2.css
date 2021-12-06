@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+
+.menu{
+    text-align: center;
+    
+    margin-top: 1%;
+
+}
+.titre{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.image  
+{
+ max-width: 200px;
+ max-height: 200px;
+ display: block; 
+ margin-left: auto;
+ margin-right: auto;
+ clip-path: ellipse(50% 50%)
+}
+.menu{
+    display: flex;
+    float: right;
+    align-items: 10px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+#topcarroussel{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#carouselExampleCaptions{
+    width: 60%;
+}
+.imagereseaux
+{
+    position : absolute;
+    left: 47%;
+    top: 200%;
+    
+}
+
+
+#réseauxphrase
+{
+    
+    position: absolute;
+    left: 46%;
+    top: 190%;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Estonia', cursive;
+
+}
+
+
+/* .root{
+    --primay: yellow; 
+    --secondary: red;
+    --ark: black;
+    --light: white;²z
+}
+
+body {
+    font-family: montserrat, sans-serif; 
+    width: 100%;
+    min-height: 100vh;
+}
+
+*{
+margin: 0;
+padding:0; }
+
+.card{ 
+    margin: 100px auto 0; 
+    width : 400px;
+    height: 600px;
+
+}
+.card__inner{
+    width: 100%;
+    height:100%; 
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+.car__inner.isflipped{
+    transform: rotateY(180deg)
+}
+.card__face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+    overflow: hidden ;
+    border-radius: 16; 
+    box-shadow: 0px 3px 18px 3px red;
+}
+.card__face--font{
+
+    background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__face--front{
+    color:seashell;
+    font-size: 32px;
+} */
