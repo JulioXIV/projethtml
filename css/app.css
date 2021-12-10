@@ -14,45 +14,52 @@
         font-size: 3.5rem;
     }
 }
+/* règlement taille et police */
+p{
+    font-size: 20px;
+}
+.text-muted{
+    font-family: 'Comporter Brush'cursive, ;
+    font-family: 'Estonia', cursive;
+    font-size: 35px;
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-    background-color: transparent;
-    width: 100%;
-    height: 20rem;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-/* This container is needed to position the front and back side */
+/* flip card container, réglage width et height, 3d et couleurs */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 20rem;
+    perspective: 1000px; 
+}
+
+/* Contenair obligatoir pour la transition */
 .flip-card-inner {
     position: relative;
     width: 300px;
     height: 300px;
     text-align: center;
-    transition: transform 0.8s;
+    transition: 1.6s;
     transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Réglage tôt de transition */
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+/* Taille, positionnement du front et du back des cards */
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 300px;
     height: 300px;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
 
-}
 
-/* Style the back side */
+/* Gestion du style avant arrière */
 .flip-card-back {
     transform: rotateY(180deg);
 }
